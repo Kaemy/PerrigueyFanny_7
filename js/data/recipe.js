@@ -27,7 +27,7 @@ export class Recipe {
       this.recipes = recipes;
     }
 
-    byName() {
+    sortbyName() {
         return this.recipes.sort((r1, r2) => {
           const name1 = r1.name.toLowerCase();
           const name2 = r2.name.toLowerCase();
