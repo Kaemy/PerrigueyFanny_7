@@ -1,17 +1,35 @@
-/* =====================================
-    BACKGROUND & TYPOGRAPHY COLORS
-   ===================================== */
-   .bgtxt-info {
-    color: white;
-    background: $info-500;
+/* ==========
+   TEXT ALIGN
+   ========== */
+
+   .txt-center {
+    text-align: center;
   }
   
-  .bgtxt-success {
-    color: white;
-    background: $success-500;
+  /* ==========
+     TEXT SIZE
+     ========== */
+  
+  .txt-h1 {
+    font-size: $h1-size;
   }
   
-  .bgtxt-danger {
-    color: white;
-    background: $danger-500;
+  .txt-h2 {
+    font-size: $h2-size;
+  }
+  
+  .txt-h3 {
+    font-size: $h3-size;
+  }
+  
+  .txt-h4 {
+    font-size: $h4-size;
+  }
+  
+  .txt-h5 {
+    font-size: $h5-size;
+  }
+  
+  .txt-h6 {
+    font-size: $h6-size;
   }

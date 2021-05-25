@@ -2,13 +2,9 @@
 
 import { RECIPES } from "./data/recipesData.js";
 import { DataFetcher } from "./data/dataFetcher.js";
-import { PageManager } from "./pages/pageManager.js";
+import { HomePageBuilder } from "./components/homePageBuilder.js";
 
 const dataFetcher = new DataFetcher(RECIPES);
 const recipesList = dataFetcher.getRecipesList();
 
-recipesList.sortByName();
-
-const pageManager = new PageManager(recipesList);
-
-pageManager.render();
+new HomePageBuilder(recipesList).render();

@@ -3,19 +3,19 @@
 // =====================================
 
 @mixin large-wrapper {
-    max-width: $large-container-width;
-    margin: auto;
-    padding: 0 $grid-4;
-  }
+  max-width: $large-container-width;
+  margin: auto;
+  padding: 0 $grid-4;
+}
 
-  @mixin medium-wrapper {
-    max-width: $medium-container-width;
-    margin: auto;
-    padding: 0 $grid-3;
-  }
-  
-  @mixin small-wrapper {
-    max-width: $small-container-width;
-    margin: auto;
-    padding: 0 $grid-2;
-  } 
+@mixin medium-wrapper {
+  max-width: $medium-container-width;
+  margin: auto;
+  padding: 0 $grid-3;
+}
+
+@mixin small-wrapper {
+  max-width: $small-container-width;
+  margin: auto;
+  padding: 0 $grid-2;
+}
