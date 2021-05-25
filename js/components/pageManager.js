@@ -1,6 +1,6 @@
 "use strict";
 
-import { RecipeCard } from "./cards.js";
+import { RecipeCard } from "./cards";
 
 export class PageManager {
   constructor(recipesList) {

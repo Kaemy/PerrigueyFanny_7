@@ -12,7 +12,7 @@ export class DataFetcher {
 
     for (let recipe of this._dataSource) {
       recipes.push(
-        new Recipe(
+        new Recipe (
           recipe.id,
           recipe.name,
           recipe.servings,
