@@ -2,7 +2,7 @@
 
 import { RECIPES } from "./data/recipesData";
 import { DataFetcher } from "./data/dataFetcher";
-import { HomePageBuilder } from "./page/homePageBuilder";
+import { HomePageBuilder } from "../js/page/homePageBuilder";
 
 const dataFetcher = new DataFetcher(RECIPES);
 const recipesList = dataFetcher.getRecipesList();
