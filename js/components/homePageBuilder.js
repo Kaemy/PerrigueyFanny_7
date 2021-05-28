@@ -1,7 +1,7 @@
 "use strict";
 
-import { RecipeCard } from "./cards.js";
-import { removeAccents } from "../utiles/strings.js";
+import { RecipeCard } from "./cards";
+import { removeAccents } from "../utiles/strings";
 
 const BREAKPOINTS = {
   small: 840,
