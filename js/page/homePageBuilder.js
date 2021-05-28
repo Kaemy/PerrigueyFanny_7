@@ -1,6 +1,6 @@
 "use strict";
 
-import { RecipeCard } from "../components/cards";
+import { RecipeCard } from "../components/cards.js";
 import { removeAccents } from "../utiles/strings";
 
 const BREAKPOINTS = {
