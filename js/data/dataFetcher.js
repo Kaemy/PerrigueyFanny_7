@@ -1,6 +1,6 @@
 "use strict";
 
-import { Recipe, RecipesList } from "./recipe";
+import { Recipe, RecipesList } from "./recipe.js";
 
 export class DataFetcher {
   /**

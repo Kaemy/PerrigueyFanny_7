@@ -1,6 +1,6 @@
 "use strict";
 
-import { FRENCH_STOP_WORDS } from "./stopWords";
+import { FRENCH_STOP_WORDS } from "./stopWords.js";
 
 const STOP_WORDS = [];
 

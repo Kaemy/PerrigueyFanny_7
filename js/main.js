@@ -1,8 +1,8 @@
 "use strict";
 
-import { RECIPES } from "./data/recipesData";
-import { DataFetcher } from "./data/dataFetcher";
-import { HomePageBuilder } from "./page/homePageBuilder";
+import { RECIPES } from "./data/recipesData.js";
+import { DataFetcher } from "./data/dataFetcher.js";
+import { HomePageBuilder } from "./page/homePageBuilder.js";
 
 const dataFetcher = new DataFetcher(RECIPES);
 const recipesList = dataFetcher.getRecipesList();

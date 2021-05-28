@@ -5,7 +5,7 @@ import {
   removeAccents,
   removeStopWords,
   sortAlphabetically,
-} from "../utiles/strings";
+} from "../utiles/strings.js";
 
 export class Recipe {
   /**
