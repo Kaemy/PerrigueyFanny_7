@@ -7,4 +7,5 @@ import { HomePageBuilder } from "./page/homePageBuilder.js";
 const dataFetcher = new DataFetcher(RECIPES);
 const recipesList = dataFetcher.getRecipesList();
 
+
 new HomePageBuilder(recipesList).render();
